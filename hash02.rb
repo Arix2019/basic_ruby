@@ -6,15 +6,16 @@ def hash01()
     end
 end
 
+
 def hash02()
-    nomes = [name: "Anna", age: 26, email: "Claire", phone: 1155585]
+    nomes = {name: "Anna", age: 26, email: "Claire", phone: 1155585}
     
-    nomes.each { |keys, values| puts "k: #{keys}, v: #{values}" }
+    nomes.each do |key, value|
+      puts "#{key}: #{value}"
+    end
 
 end
 
 
-
-
-
+hash01()
 hash02()
