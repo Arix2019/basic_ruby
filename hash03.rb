@@ -4,6 +4,9 @@ dict = {carro: "mercedes", moto: "yamaha",
 # adicionando
 dict[:patinete] = "hammer"
 
+# adicionando
+dict << "hammer"
+
 # deletando
 dict.delete(:patinete)
 
